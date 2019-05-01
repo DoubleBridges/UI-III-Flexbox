@@ -93,10 +93,6 @@ body {
 .navigation :first-child {
 	margin-left: 0;
 }
-.navigation label :first-child:hover {
-	/* transform: scale(2.0); */
-
-}
 .navigation img {
 	margin-bottom: -15px;
 	margin-left: 96px;
