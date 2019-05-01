@@ -150,10 +150,10 @@ header .bottom-text {
 .top-content {
 	padding: 40px 0;
 	display: flex;
+	justify-content: space-between;
 }
 .top-content div {
-	width: 435.5px;
-	display: inline-block;
+	width: 48%;
 }
 .top-content .left {
 	margin-left: 0;
@@ -162,29 +162,24 @@ header .bottom-text {
 	margin-left: 1px;
 }
 .middle-img {
-	display: block;
+	display: flex;
 	box-sizing: border-box;
-	width: 876px;
-	height: 182px;
+	width: 100%;
 }
 .bottom-content {
 	border: 1px solid white;
 	border-bottom-color: black;
 	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
 }
 .bottom-content div {
-	width: 282px;
-	display: inline-block;
-	margin-left: 10px;
-}
-.bottom-content .left {
-	margin-left: 0;
-}
-.bottom-content div h3 {
-	margin-block-start: 0;
+	width: 31%;
 }
 .contact {
 	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
 }
 .contact .phone-number {
 	padding: 15px 0;
