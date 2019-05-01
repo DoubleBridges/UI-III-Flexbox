@@ -88,11 +88,14 @@ body {
 	display: inline-block;
 }
 .navigation label:hover {
-	transform: scale(2.0);
-
+	transform: scale(1.5) translateX(10px);
 }
 .navigation :first-child {
 	margin-left: 0;
+}
+.navigation label :first-child:hover {
+	/* transform: scale(2.0); */
+
 }
 .navigation img {
 	margin-bottom: -15px;
