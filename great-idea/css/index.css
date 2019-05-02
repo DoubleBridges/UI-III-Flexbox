@@ -109,9 +109,6 @@ header {
 header .bottom-text {
 	margin-bottom: -20px;
 }
-
-.title {
-}
 .title ul{
 	width: auto;
 	height: auto;
@@ -139,7 +136,7 @@ header .bottom-text {
 	100% {
 	  transform: scale(1);
 	}
-  }
+}
 .title ul button:hover {
 	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
