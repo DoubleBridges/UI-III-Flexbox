@@ -64,3 +64,191 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+.navigation {
+	display: flex;
+	overflow: hidden;
+	position: fixed;
+	background: white;
+	top: 0;
+	width: 100%;
+}
+.navigation nav {
+	margin-top: 35px;
+	padding-bottom: 15px;
+}
+.navigation label {
+	margin: 0 25px;
+	color: gray;
+	opacity: 25%;
+	display: inline-block;
+}
+.navigation label:hover {
+	transform: scale(1.5) translateX(10px);
+}
+.navigation :first-child {
+	margin-left: 0;
+}
+.navigation img {
+	margin-bottom: -15px;
+	margin-left: 96px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 160px;
+	align-items: center;
+	border: 1px solid white;
+	border-bottom-color: black;
+	padding-bottom: 65px;
+}
+header .bottom-text {
+	margin-bottom: -20px;
+}
+.title ul{
+	width: auto;
+	height: auto;
+	font-size: 75px;
+	text-align: center;
+	margin-left: 100px;
+}
+.title ul button {
+	height: 30px;
+	width: 150px;
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+	font-family: "Anton";
+}
+@keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	60% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1);
+	}
+}
+.title ul button:hover {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-name: bounceIn;
+	animation-name: bounceIn;
+}
+.top-content {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.top-content div {
+	width: 48%;
+}
+.top-content .left {
+	margin-left: 0;
+}
+.top-content .right {
+	margin-left: 1px;
+}
+.middle-img {
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+}
+.bottom-content {
+	border: 1px solid white;
+	border-bottom-color: black;
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom-content div {
+	width: 31%;
+}
+.contact {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.contact .phone-number {
+	padding: 15px 0;
+}
+footer {
+	text-align: center;
+	margin: 60px 0;
+}
+.services-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 350px;
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+.servicers-header-img {
+	width: 100%;
+	height: 200px;
+}
+.header-content h2 {
+	font-size: 25px;
+	margin-top: 20px;
+}
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 50px 0;
+	border-bottom: 2px solid black;
+}
+.service {
+	/* flex-grow: 1; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: flex-start;
+	width: 45%;
+	height: 250px;
+	background: #f5f5f3;
+	border: 1px solid black;
+	margin: 20px 0;
+	padding: 20px;
+}
+.service button {
+	width: 35%;
+	height: 40px;
+	background: white;
+	margin-top: 15px;
+	border: 1px solid blzk;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+	font-size: 12px;
+}
+.further-information {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+.further-content {
+	display: flex;
+	flex-direction: column;
+	width: 45%
+}
+.further-content p {
+	margin: 10px 0 80px 0;
+}
+.further-content ul {
+	margin: 12px 0;
+	list-style: square;  
+}
+.further-content li {
+	margin:12px 15px;
+}
